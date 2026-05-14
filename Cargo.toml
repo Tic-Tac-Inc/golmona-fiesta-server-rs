@@ -3,4 +3,15 @@ name = "golmona-fiesta-server-rs"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = [
+    "common",
+    "network",
+    "."
+]
+
+[workspace.dependencies]
+common = { path = "../common" }
+network = { path = "../network" }
+
 [dependencies]

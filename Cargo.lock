@@ -3,5 +3,13 @@
 version = 4
 
 [[package]]
+name = "common"
+version = "0.1.0"
+
+[[package]]
 name = "golmona-fiesta-server-rs"
+version = "0.1.0"
+
+[[package]]
+name = "network"
 version = "0.1.0"
